@@ -1,0 +1,6 @@
+- We need to do clean up of the file as part of the ETL (to ensure we don't lose any data)
+- We need to design the Data Warehouse using the Kimball Methodology (Facts and Dimensions)
+- Firstly we need to create Dimension for transaction status and cater for any future inserts and updates ( create our own keys )
+- We need to create another dimension for transaction type
+- We then include the dimenssion keys into the Fact table ( we can call it Transaction)
+- This will allow the data pipeline to be robust
